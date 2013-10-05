@@ -1,0 +1,5 @@
+{
+	"Command": "bash /usr/local/bin/sysbuilder/create_vm",
+	"Template": "/var/lib/libvirt/images/template.qcow",
+	"StoragePath": "/var/lib/libvirt/images"
+}

@@ -1,6 +1,6 @@
 all:
 	@mkdir -p bin/
-	@go build -o bin/buildworker buildworker.go
+	@go build -o bin/sysbuildworker sysbuildworker.go
 
 get-deps:
 	@go get -d -v ./...
