@@ -12,7 +12,7 @@ Create a machine called `myhostname.example.com`:
 
     redis-cli -r 1 RPUSH resque:queue:builder '{"class":"CreateVM","args":["myhostname.example.com"]}'
 
-Configuration is set in the config.json file. 
+Configuration is set in the config.json file, move the existing config.json.sample provided.
 
     "Command": "/usr/local/bin/sysbuilder/create_vm",
     "Template": "/var/lib/libvirt/images/template.qcow",
